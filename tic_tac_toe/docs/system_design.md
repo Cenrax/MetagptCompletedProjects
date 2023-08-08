@@ -56,7 +56,7 @@ classDiagram
     Game "2" -- "2" Player: has
     Game "1" -- "1" AI: has
     AI "1" -- "1" Player: is
-}
+
 ```
 
 ## Program call flow:
