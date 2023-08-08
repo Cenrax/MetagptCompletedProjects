@@ -22,13 +22,6 @@ The boss wants me to create a tic tac toe game.
 - Tic Tac Toe Challenge: A challenging tic tac toe game with different board sizes and AI difficulty levels.
 - Tic Tac Toe 3D: A 3D tic tac toe game with stunning graphics and immersive gameplay.
 
-## Competitive Quadrant Chart:
-```mermaid
-quadrantChart
-    title Reach and engagement of tic tac toe games
-    x-axis Low Reach --> High Reach
-    y-axis Low Engagement --> High Engagement
-```
 
 ## Requirement Analysis:
 The product should be a tic tac toe game with the following features:
