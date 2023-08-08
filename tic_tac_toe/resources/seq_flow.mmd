@@ -1,0 +1,22 @@
+sequenceDiagram
+    participant M as Main
+    participant G as Game
+    participant B as Board
+    participant P1 as Player
+    participant P2 as Player
+    participant A as AI
+    participant U as Utils
+    M->>G: Create game with player1 and player2
+    G->>B: Create board
+    M->>G: Start game
+    G->>G: Get current player
+    G->>U: Clear screen
+    G->>B: Get board
+    M->>G: Make move
+    G->>B: Set cell
+    G->>B: Is full?
+    G->>B: Is winner?
+    G->>G: Is game over?
+    G->>G: Get winner
+    G->>U: Clear screen
+    G->>G: Reset game
